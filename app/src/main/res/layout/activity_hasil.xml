@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cartype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAR TYPE :"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/outsidecity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUTSIDE CITY: "
+        android:textSize="16sp"
+        android:layout_below="@id/cartype"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/jmlhari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY OF RENT  : "
+        android:textSize="16sp"
+        android:layout_below="@id/outsidecity"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total : "
+        android:textSize="16sp"
+        android:layout_below="@id/jmlhari"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+</RelativeLayout>

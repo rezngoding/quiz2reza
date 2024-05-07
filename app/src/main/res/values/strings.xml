@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="pajero">PAJERO</string>
+    <string name="alphard">ALPHARD</string>
+    <string name="inova">INOVA</string>
+    <string name="brio">BRIO</string>
+    <string name="total_day">TOTAL DAY</string>
+    <string name="pesan">Pesan</string>
+    <string name="insidecity">INSIDE CITY</string>
+    <string name="outsidecity">OUTSIDE CITY</string>
+</resources>
